@@ -1,0 +1,12 @@
+export { LoginPage } from './LoginPage';
+export { RegisterPage } from './RegisterPage';
+export { DashboardPage } from './DashboardPage';
+export { ContactsPage } from './ContactsPage';
+export { CompaniesPage } from './CompaniesPage';
+export { LeadsPage } from './LeadsPage';
+export { AddCompanyPage } from './AddCompanyPage';
+export { EditCompanyPage } from './EditCompanyPage';
+export { AddContactPage } from './AddContactPage';
+export { EditContactPage } from './EditContactPage';
+export { AddLeadPage } from './AddLeadPage';
+export { EditLeadPage } from './EditLeadPage';

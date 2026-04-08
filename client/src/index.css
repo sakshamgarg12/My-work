@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply m-0 antialiased text-slate-800 bg-slate-50;
+  }
+}
+
+@layer components {
+  .crm-form__row {
+    @apply mb-3;
+  }
+
+  .crm-form__row label {
+    @apply mb-1 block text-sm font-medium text-slate-700;
+  }
+
+  .crm-form__row input,
+  .crm-form__row select,
+  .crm-form__row textarea {
+    @apply w-full max-w-md rounded-md border border-slate-300 px-2 py-2 text-sm shadow-sm focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500;
+  }
+
+  .crm-form__actions {
+    @apply mt-4 flex gap-2;
+  }
+
+  .crm-form__actions button {
+    @apply cursor-pointer rounded-md border border-slate-700 bg-slate-800 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-slate-900;
+  }
+
+  .crm-form__actions button[type='button'] {
+    @apply border-slate-300 bg-white text-slate-700 hover:bg-slate-50;
+  }
+
+  .crm-page-error {
+    @apply mb-3 text-sm text-red-600;
+  }
+}
