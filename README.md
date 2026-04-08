@@ -1,6 +1,12 @@
-# CRM Application
+# Catalyst CRM
 
-A full-stack Customer Relationship Management (CRM) application built with Node.js Express backend and React frontend.
+[![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=0B1221)](https://react.dev/)
+[![Express](https://img.shields.io/badge/Express-4-000000?logo=express&logoColor=white)](https://expressjs.com/)
+[![MySQL](https://img.shields.io/badge/MySQL-8-4479A1?logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![License](https://img.shields.io/badge/License-ISC-blue.svg)](./server/package.json)
+
+A full-stack Customer Relationship Management (CRM) application built with an Express backend and React frontend.
 
 ## Project Structure
 
@@ -36,12 +42,13 @@ crm-app/
 3. Start the development server: `npm start`
 
 ## Features
-- Customer management
-- Sales pipeline tracking
+- Company management (create, update, delete, filters)
 - Contact management
-- Activity logging
+- Lead management and pipeline tracking
+- JWT authentication with login/register flow
+- Dashboard metrics
 
 ## Technologies
 - **Backend**: Node.js, Express.js
-- **Frontend**: React
-- **Database**: MongoDB (or your preferred database)
+- **Frontend**: React, React Router
+- **Database**: MySQL (Sequelize ORM)
